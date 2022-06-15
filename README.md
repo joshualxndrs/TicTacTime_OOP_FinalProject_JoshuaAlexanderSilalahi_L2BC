@@ -11,7 +11,7 @@ Class: L2BC
 <br>
 Youtube Link: TBA
 <br>
-Google Docs Link: TBA
+Google Docs Link: https://docs.google.com/document/d/1dqMydGHZWMi8lJJF673Dtj4dEFsC_ko7L8UmzZXOQjI/edit?usp=sharing
 <br>
 Website Link: https://joshualxndrs.github.io/WebsiteTicTacTime/ (Apk file available inside of the website, you can dowload it from there)
 <br>
@@ -19,7 +19,7 @@ Website Link: https://joshualxndrs.github.io/WebsiteTicTacTime/ (Apk file availa
 Total Work-time: 3 Weeks
 <br>
 <br>
-Notes: Pull all the files in order to run the program properly. Assets are grouped into neat folders to provide easy access. Main Program files are available in the tictactime folder, TicTacTime > app > src > main > java > com > example > tictac time . Every project description would be found on the google docs or PDF file. Will leave the apk file here soon =).
+Notes: Pull all the files in order to run the program properly. Assets are grouped into neat folders to provide easy access. Main Program files are available in the tictactime folder, TicTacTime > app > src > main > java > com > example > tictac time . Every project description would be found on the google docs or PDF file.
 <br>
 <br>
 Please fill in this GForms link to review the app, and give feedbacks. Your feebacks are valuable and much appreciated. =)
