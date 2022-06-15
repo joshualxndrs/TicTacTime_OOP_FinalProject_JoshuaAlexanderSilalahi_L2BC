@@ -4,6 +4,8 @@ TIC TAC TIME
 <br>
 Name: Joshua Alexander Silalahi
 <br>
+NIM: 2502005244
+<br>
 Course Code: COMP6699001
 <br>
 Class: L2BC
