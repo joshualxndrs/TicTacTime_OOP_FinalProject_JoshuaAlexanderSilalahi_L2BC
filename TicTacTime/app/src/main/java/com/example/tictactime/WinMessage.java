@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+// WIN MESSAGE POP UP - Shows a dialog message after the end of each game
 public class WinMessage extends Dialog {
 
     private final String message;
@@ -31,7 +32,7 @@ public class WinMessage extends Dialog {
 
         messageTxt.setText(message);
 
-
+        // Restart Button - starts the game from the beginning upon click
         startAgainBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -7,6 +7,7 @@ import android.os.IBinder;
 import android.widget.Toast;
 import androidx.annotation.Nullable;
 
+// BackgroundSoundService - Using MediaPlayer feature from Android Studio to insert music
 public class BackgroundSoundService extends Service {
     MediaPlayer mediaPlayer;
     @Nullable
@@ -17,13 +18,13 @@ public class BackgroundSoundService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        mediaPlayer = MediaPlayer.create(this, R.raw.laguapp);
-        mediaPlayer.setLooping(true); // Set looping
-        mediaPlayer.setVolume(100, 100);
+        mediaPlayer = MediaPlayer.create(this, R.raw.laguapp);  // Calling Audio File
+        mediaPlayer.setLooping(true); // Loops music
+        mediaPlayer.setVolume(100, 100); // Balanced mono and stereo volume
     }
     public int onStartCommand(Intent intent, int flags, int startId) {
-        mediaPlayer.start();
-        Toast.makeText(getApplicationContext(), "Upping up the Music!",    Toast.LENGTH_SHORT).show();
+        mediaPlayer.start();    // Starting the music
+        Toast.makeText(getApplicationContext(), "Upping up the Music!",    Toast.LENGTH_SHORT).show();  // Pop up text
         return startId;
     }
     public void onStart(Intent intent, int startId) {

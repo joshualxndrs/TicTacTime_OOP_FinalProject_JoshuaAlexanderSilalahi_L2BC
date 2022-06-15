@@ -9,12 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-// CLASS TO ADD PLAYER NAMES
+// CLASS TO ADD PLAYER NAMES //
+
 public class AddPlayers extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // connects directly to the add players page
+        // Carries instances from the activity_add_players.xml file
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_players);
 
@@ -30,12 +32,16 @@ public class AddPlayers extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                // Final Method - Once set cannot be overriden
+                // To String function to set user input as the Players' name
                 final String getPlayerOneName = playerOne.getText().toString();
                 final String getPlayerTwoName = playerTwo.getText().toString();
 
+                // No Input = Input required message
                 if(getPlayerOneName.isEmpty() || getPlayerTwoName.isEmpty()){
                     Toast.makeText(AddPlayers.this, "Player names are required!", Toast.LENGTH_SHORT).show();
                 }
+                // Name is inputted = Player names added
                 else{
                     Intent intent = new Intent(AddPlayers.this, MainActivity.class);
                     intent.putExtra("playerOne", getPlayerOneName);
