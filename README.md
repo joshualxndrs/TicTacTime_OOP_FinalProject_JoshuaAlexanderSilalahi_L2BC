@@ -11,7 +11,7 @@ Course Code: COMP6699001
 Class: L2BC
 <br>
 <br>
-Video Link: TBA
+Video Link: https://drive.google.com/drive/folders/1Kxg6BmYoF70aRNFdidi_K3nsMUuGgAxE?usp=sharing
 <br>
 Google Docs Link: https://docs.google.com/document/d/1dqMydGHZWMi8lJJF673Dtj4dEFsC_ko7L8UmzZXOQjI/edit?usp=sharing
 <br>
